@@ -22,3 +22,28 @@
  .bio-world button:focus-visible{outline:3px solid #fff!important;border-radius:15px!important}
 }
 @media(min-width:801px) and (max-height:740px){.bio-worlds{top:37%!important}.bio-world-content{height:clamp(112px,22vh,150px)!important}.bio-world p{font-size:9px!important}}
+
+/* V15.15 — smartphone en paysage : boutons proportionnes, sans etirement. */
+@media (orientation:landscape) and (max-height:600px) and (max-width:1100px){
+ .bio-home .bio-home-shell{height:100dvh!important;min-height:0!important;max-height:100dvh!important;overflow:hidden!important}
+ .bio-home .bio-top{top:5px!important;left:8px!important;right:8px!important}
+ .bio-home .bio-profile{padding:4px 7px!important;font-size:10px!important}
+ .bio-home .bio-toplinks{gap:4px!important}
+ .bio-home .bio-toplinks button{min-width:0!important;width:clamp(40px,6vw,58px)!important;height:clamp(37px,9vh,49px)!important;padding:3px!important;flex:none!important;aspect-ratio:auto!important;border-radius:10px!important}
+ .bio-home .bio-toplinks button span{font-size:clamp(15px,4vh,21px)!important;line-height:1!important}
+ .bio-home .bio-toplinks button small{font-size:8px!important;line-height:1.1!important}
+ .bio-home .bio-logo{top:2px!important;width:min(34vw,300px)!important;margin:0!important}
+ .bio-home .bio-logo img{max-height:18vh!important}
+ .bio-home .bio-logo p{font-size:9px!important;padding:2px 6px!important}
+ .bio-home .bio-worlds{position:absolute!important;top:31%!important;left:3%!important;right:3%!important;height:36%!important;min-height:0!important;padding:0!important;display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:2%!important;align-items:center!important}
+ .bio-home .bio-world{min-width:0!important;align-self:center!important}
+ .bio-home .bio-world-content{width:min(100%,220px)!important;height:auto!important;min-height:0!important;max-height:33vh!important;aspect-ratio:1.85!important;padding:5px 10px!important;overflow:hidden!important}
+ .bio-home .bio-world h2{font-size:clamp(10px,2.7vh,15px)!important;line-height:1.05!important;margin:0 0 3px!important}
+ .bio-home .bio-world p{font-size:clamp(8px,1.9vh,10px)!important;line-height:1.1!important;margin:0 0 3px!important}
+ .bio-home .bio-world button{font-size:clamp(9px,2.3vh,12px)!important;padding:2px 8px!important;min-height:0!important}
+ .bio-home .bio-actions{position:absolute!important;bottom:clamp(9px,3vh,20px)!important;left:50%!important;transform:translateX(-50%)!important;width:min(80%,730px)!important;display:grid!important;grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:clamp(4px,1vw,9px)!important;margin:0!important;align-items:end!important}
+ .bio-home .bio-action{width:100%!important;height:clamp(48px,15vh,72px)!important;min-height:0!important;max-height:72px!important;aspect-ratio:auto!important;min-width:0!important;padding:4px 3px!important;gap:1px!important;border-radius:10px!important;line-height:1.05!important;font-size:clamp(9px,2.5vh,12px)!important;white-space:normal!important;overflow-wrap:normal!important;word-break:normal!important;transform:none!important}
+ .bio-home .bio-action-icon{font-size:clamp(17px,5vh,24px)!important;line-height:1!important;flex-shrink:0!important}
+ .bio-home .bio-more{display:none!important}
+ .bio-home .bio-action:hover{transform:none!important}
+}
