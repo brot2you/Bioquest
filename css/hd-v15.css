@@ -1,0 +1,28 @@
+/* BIOQUEST V15 — images HD historiques réintégrées, sans toucher au gameplay */
+:root{--hd-outline:#f5d17d;--hd-ink:#efffff} body{background:radial-gradient(circle at 50% 0%,#167c91 0,#0a354b 48%,#061c31 100%)}
+.home{background:linear-gradient(90deg,#03273bc7,#07334b80),url('../assets/hero.webp') center/cover no-repeat;isolation:isolate}
+.home:before,.hero-art,.stars{display:none!important}
+.hero-content{max-width:780px;background:linear-gradient(145deg,#082b49f0,#123b5cd9);border:2px solid #bcefe7a8;box-shadow:0 20px 70px #031e37d9}
+.hero-content:before{content:'';display:block;width:min(55vw,250px);height:150px;margin:0 auto 6px;background:url('../assets/robot.webp') center/contain no-repeat;filter:drop-shadow(0 10px 10px #0018)}
+.hero-content h1{filter:drop-shadow(0 4px 0 #0b2c40)}
+.archipelago{gap:22px}.island{position:relative;overflow:hidden;min-height:390px;isolation:isolate;border:3px solid #e6f3da9c;box-shadow:0 16px 30px #0008;background:#124d6a!important;text-shadow:0 2px 5px #001d31}
+.island:before{content:'';position:absolute;inset:0;z-index:-2;background-size:cover;background-position:center;transition:transform .3s}
+.island:after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,#09253836 0%,#072739b3 55%,#062638ee 100%)}
+.island:nth-child(1):before{background-image:url('../assets/earth.webp')}.island:nth-child(2):before{background-image:url('../assets/living.webp')}.island:nth-child(3):before{background-image:url('../assets/body.webp')}
+.island:hover:before{transform:scale(1.055)}.island-emoji{font-size:60px;filter:drop-shadow(0 3px 3px #001)}.island strong{font-size:1.6rem}.island small{color:#fff}
+.adventure-scene,.site-scene{position:relative;isolation:isolate;overflow:hidden;background:#17566a!important}
+.adventure-scene:before,.site-scene:before{content:'';position:absolute;inset:0;z-index:-2;background-size:cover;background-position:center}
+.adventure-scene:after,.site-scene:after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,#123a4750,#102d42a3)}
+.theme-terre:before{background-image:url('../assets/earth.webp')}.theme-vivant:before{background-image:url('../assets/living.webp')}.theme-corps:before{background-image:url('../assets/body.webp')}
+.adventure-scene .sky-details,.adventure-scene .scene-landscape,.site-scene .sky-details,.site-scene .scene-landscape{display:none}
+.place{background:#073c59e8!important;box-shadow:0 6px 14px #0018;border:2px solid #d9fbf4!important;backdrop-filter:blur(5px)}
+.v10-scene{position:relative;isolation:isolate;background:linear-gradient(#07324a66,#063147cc),url('../assets/science.webp') center/cover no-repeat!important;border-color:#e7df9e}
+.v10-scene.v10-terre{background:linear-gradient(#07324a55,#063147d9),url('../assets/volcano.webp') center/cover no-repeat!important}
+.v10-scene.v10-corps{background:linear-gradient(#07324a55,#063147d9),url('../assets/lab.webp') center/cover no-repeat!important}
+.v10-object{box-shadow:0 8px 0 #123b4d55;transition:transform .18s}.v10-object:hover{transform:translateY(-3px)}
+.microscope{background:radial-gradient(circle,#ffffffdd,#1b4560aa),url('../assets/microscope.webp') center/cover no-repeat}
+.card,.panel,.challenge,.fact{box-shadow:0 10px 24px #00182c44}.card:hover{border-color:#ffe3a1}
+header{background:#061f33f5;box-shadow:0 5px 24px #001c2d55}
+.brand{letter-spacing:.025em}.guide-talk{border-left:5px solid #ffce67}
+@media(max-width:760px){.home{min-height:100svh;background-image:linear-gradient(#052c46b0,#052c46b8),url('../assets/mobile.webp');background-position:center;background-size:cover}.hero-content:before{height:105px;width:130px}.hero-content{margin:12px;max-width:94vw}.island{min-height:290px}.island-emoji{font-size:48px}.v10-scene{background-position:center}.v10-objects{gap:8px}}
+@media(prefers-reduced-motion:reduce){.island:before,.v10-object{transition:none!important}}
