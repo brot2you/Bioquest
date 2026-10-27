@@ -1,23 +1,11 @@
-# BIOQUEST — Base pédagogique jouable V1
+# BIOQUEST — Base pédagogique V2
+
+Version de travail à illustrations emoji provisoires. 20 missions (8 initiales + 12 nouvelles), trois îles, quatre niveaux, activités d'observation, de raisonnement, d'association et de décision, carnet, laboratoire, sauvegarde locale, import/export JSON et réactivation espacée.
 
 ## Publication GitHub Pages
-1. Décompresser le ZIP.
-2. Envoyer **le contenu** du dossier (index.html, css/, js/, data/, assets/) à la racine du dépôt GitHub.
-3. Dans Settings > Pages, choisir Deploy from a branch, main, /(root).
-4. Attendre la publication puis ouvrir l'URL Pages.
+Décompresser le ZIP et transférer **le contenu** (index.html, css/, js/, data/, README.md) à la racine du dépôt. Activer GitHub Pages depuis la branche principale et le dossier racine.
 
-Aucun serveur, compte ou API requis. Les données sont sauvegardées dans localStorage. Les boutons Exporter et Importer utilisent JSON.
+## Limites et vérifications
+Les parcours sont des propositions pédagogiques, non une certification ni une couverture exhaustive des programmes. Les séries de données simplifiées sont signalées. Les nouveaux contenus nécessitent une relecture scientifique et une correspondance fine avec les programmes en vigueur avant utilisation systématique en classe. La révision est stockée localement par mission et non encore par compétence. Les illustrations sont provisoires.
 
-## Contenu
-- Point-and-click par zones, trois îles, quatre niveaux, huit enquêtes avec activités d'observation, interprétation, associations et décisions.
-- Mission volcanique en cinq étapes, graphique interactif à interpréter.
-- Laboratoire avec microscope schématique, comparaison de protocoles.
-- Carnet, compétences, badges, lexique, faits scientifiques et vrai/intox.
-- Les emojis sont **des marqueurs visuels temporaires**. Les illustrations finales pourront être substituées en changeant les champs `emoji`/`visual` et le rendu des composants.
-
-## Limites connues
-- Prototype pédagogique jouable, **pas encore une couverture complète du programme de SVT 6e–3e**.
-- Progression par mission, pas encore par degré de maîtrise vérifié dans des exercices différés.
-- Les activités sont des modèles didactiques simplifiés ; les données sismiques sont fictives.
-- Tests automatiques de syntaxe et d'intégrité du ZIP possibles ; tests visuels sur appareils réels à effectuer.
-- Le programme officiel et les progressions doivent être vérifiés avant toute affirmation d'exhaustivité.
+Les fichiers data/content.js et data/extension.js permettent d'enrichir les missions sans modifier le moteur. Aucune dépendance distante.
