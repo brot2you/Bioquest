@@ -1,0 +1,9 @@
+/* BIOQUEST V8 — fiabilisation sans changement de direction artistique */
+:focus-visible{outline:3px solid #ffe16b!important;outline-offset:3px!important}
+button,select,input{touch-action:manipulation}
+button:disabled{opacity:.6;cursor:not-allowed}
+.pair-choice{min-height:44px;white-space:normal;overflow-wrap:anywhere}
+.pair-options,.pair-row,.cards,.actions{min-width:0}
+#app{max-width:100%;overflow-x:clip}
+@media(max-width:520px){.pair-row{display:flex;flex-direction:column;gap:10px}.pair-options{display:flex;flex-wrap:wrap;gap:8px}.pair-choice{flex:1 1 130px}main{min-width:0}.heading h1{overflow-wrap:anywhere}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
