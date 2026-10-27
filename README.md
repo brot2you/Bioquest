@@ -1,15 +1,16 @@
-# BIOQUEST V9 — Extension programme
+# BIOQUEST V10 — Adventure World
 
-Version cumulative basée sur BIOQUEST V9 précédent. Ouvrir `index.html` ou publier tous les fichiers à la racine GitHub Pages.
+Version cumulative construite sur V9 enrichie.
 
-## Contenu réellement ajouté
-- 108 fiches de notions rédigées (27 par niveau), organisées en 54 binômes/expéditions.
-- Chaque notion : synthèse scientifique, situation d’application, activité de rédaction d’hypothèse, reconnaissance d’une définition, situation d’évaluation rédigée, rappel différé.
-- Sauvegarde locale via le moteur préexistant, sans compte.
-- Anciennes missions, enquêtes et laboratoire conservés.
+## Ajouts
+- 18 lieux (6 par île), reliés par une carte et des passages directs.
+- 54 objets/indices examinables et consignés dans le journal.
+- 18 enquêtes avec une conclusion verrouillée jusqu’à la collecte de 3 preuves.
+- Corrections scientifiques et nouvelle progression sauvegardée dans la sauvegarde existante.
+- Emojis provisoires, responsive mobile.
 
-## Limites importantes
-- Il ne s’agit PAS encore de 270 activités variées indépendantes ni de 20 simulations supplémentaires. Les 108 exercices de reconnaissance sont générés sur un même modèle et la correction automatique ne valide que le choix de définition.
-- Les évaluations écrites sont sauvegardées mais nécessitent une autoévaluation ou un enseignant.
-- Le découpage des 5e/4e/3e est une proposition, pas une prescription annuelle officielle. La correspondance ligne à ligne avec les programmes Éduscol reste à auditer.
-- Tests navigateur/iPhone à réaliser sur la version publiée.
+## Publication
+Décompresser et transférer **tout le contenu** du ZIP à la racine du dépôt GitHub Pages, en remplaçant les fichiers existants sans supprimer les autres. Laisser les dossiers css, data et js.
+
+## Périmètre honnête
+Les 18 enquêtes sont de courtes investigations à choix, pas encore des aventures narratives multi-étapes. Les anciens parcours V9 et les activités restent conservés. Tests manuels navigateur/iPhone nécessaires.
