@@ -7,3 +7,5 @@ Boutons, titres et panneaux sont des éléments HTML/CSS indépendants et cliqua
 Installation : décompresser le ZIP et déposer tous les fichiers et dossiers à la racine du dépôt GitHub Pages Bioquest, en remplaçant les fichiers existants.
 
 Cette version conserve les autres fonctionnalités de la V15.
+
+BIOQUEST V15 — Mise à jour
