@@ -1,0 +1,14 @@
+BIOQUEST V1 — L'ÎLE DES VOLCANS
+
+INSTALLATION SUR GITHUB PAGES
+1. Décompressez BIOQUEST-V1.zip.
+2. Créez un dépôt GitHub, par exemple BIOQUEST.
+3. Déposez à la RACINE du dépôt index.html, style.css, script.js et le dossier assets complet.
+4. Dans Settings > Pages, choisissez Deploy from a branch, main, / (root), puis Save.
+5. Ouvrez https://VOTRE-NOM.github.io/BIOQUEST/ après publication.
+
+TEST LOCAL : ouvrez index.html dans votre navigateur.
+
+FONCTIONS : 9 missions à progression séquentielle, questions avec explications, défi au curseur, carnet, badges, sauvegarde locale, export/import JSON, interface responsive.
+
+IMPORTANT : les illustrations sont des supports visuels, pas des interfaces interactives. Les boutons sont de vrais éléments HTML. Les représentations scientifiques stylisées ne sont pas toutes à l'échelle. Vérifiez les contenus avant un usage pédagogique formel.
