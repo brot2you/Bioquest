@@ -1,0 +1,8 @@
+/* BIOQUEST V15.15 — HD icon integration, original actions preserved. */
+.bio-home .bio-ui-icon{display:block;object-fit:contain;flex:none;max-width:100%;filter:drop-shadow(0 2px 3px #001a2e66)}
+.bio-home .bio-toplinks button .bio-nav-icon{width:clamp(25px,3vw,39px);height:clamp(25px,3vw,39px);margin:0 auto}
+.bio-home .bio-action .bio-action-icon{width:clamp(29px,4.5vh,51px);height:clamp(29px,4.5vh,51px);margin:0 auto 1px}
+.bio-home .bio-world h2 .bio-world-icon{display:inline-block;width:clamp(18px,2.1vw,29px);height:clamp(18px,2.1vw,29px);vertical-align:middle;margin-right:5px}
+.bio-home .bio-world h2{display:block;white-space:normal!important;word-break:normal!important;overflow-wrap:normal!important}
+@media(max-width:800px){.bio-home .bio-toplinks button .bio-nav-icon{width:25px;height:25px}.bio-home .bio-world h2 .bio-world-icon{width:24px;height:24px}.bio-home .bio-action .bio-action-icon{width:36px;height:36px}}
+@media(min-width:801px) and (max-height:720px){.bio-home .bio-action .bio-action-icon{width:28px;height:28px}.bio-home .bio-world h2 .bio-world-icon{width:18px;height:18px}}
