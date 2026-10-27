@@ -1,11 +1,9 @@
-# BIOQUEST V15 — Science Adventure HD (premier lot graphique)
+BIOQUEST V15 — ACCUEIL INTERACTIF
 
-Version cumulative basée sur V14. 22 images WebP provenant du projet BIOQUEST antérieur ont été réintégrées sans découpage automatique des planches.
+Décors fournis par l’utilisateur : assets/home-hero.webp (ordinateur) et assets/home-mobile.webp (smartphone). Logo fourni : assets/home-logo.png.
 
-**Intégré :** fond d’accueil desktop et mobile, robot décoratif, 3 îles illustrées, fonds des scènes existantes, fonds des scènes V10, décor du microscope, harmonisation des cartes.
+Boutons, titres et panneaux sont des éléments HTML/CSS indépendants et cliquables. Aucun robot ajouté.
 
-**Non réalisé dans ce lot :** 18 décors individuels pour les 18 lieux, portraits de personnages en dialogue, schémas spécifiques aux 108 notions, remplacement de tous les emojis, découpage des planches de badges/cartes. Les ressources correspondantes sont conservées dans assets/ pour un travail graphique ultérieur.
+Installation : décompresser le ZIP et déposer tous les fichiers et dossiers à la racine du dépôt GitHub Pages Bioquest, en remplaçant les fichiers existants.
 
-Installation : décompresser et envoyer tous les fichiers et dossiers à la racine du dépôt GitHub Pages. Ne pas déposer seulement index.html : le dossier assets est indispensable.
-
-La progression reste enregistrée sous la même clé localStorage. Tests visuels manuels sur appareils réels à effectuer.
+Cette version conserve les autres fonctionnalités de la V15.
