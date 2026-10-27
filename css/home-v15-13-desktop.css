@@ -1,0 +1,34 @@
+/* V15.13 — desktop is ONE viewport scene. No stacked bands. */
+@media (min-width:801px) {
+ html:has(.bio-home),body:has(.bio-home),body:has(.bio-home) #app {height:100%;min-height:0!important;overflow:hidden!important;margin:0!important}
+ .bio-home{height:100vh!important;height:100dvh!important;min-height:0!important;max-height:100dvh!important;overflow:hidden!important;background:#0b88b9!important;position:relative!important}
+ .bio-home-background{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;background:url('../assets/home-hero.webp') center/cover no-repeat!important;z-index:-1!important}
+ .bio-home-background .bio-bg-pc{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center center!important}
+ .bio-home::after{content:''!important;position:absolute!important;bottom:-1px!important;left:0!important;width:100%!important;height:43vw!important;max-height:70dvh!important;background-image:url('../assets/science-desk-v15-11.png')!important;background-position:center bottom!important;background-size:100% auto!important;background-repeat:no-repeat!important;z-index:1!important;pointer-events:none!important}
+ .bio-home-shell{position:absolute!important;inset:0!important;box-sizing:border-box!important;width:100%!important;max-width:none!important;height:100%!important;min-height:0!important;display:block!important;padding:0!important;margin:0!important;z-index:2!important}
+ .bio-top{position:absolute!important;top:clamp(9px,1.6vh,20px)!important;left:clamp(12px,2vw,32px)!important;right:clamp(12px,2vw,32px)!important;z-index:5!important}
+ .bio-profile{padding:clamp(6px,.8vh,12px) 12px!important;font-size:clamp(11px,1vw,15px)!important}
+ .bio-toplinks button{min-width:clamp(55px,5.3vw,78px)!important;padding:6px!important}
+ .bio-toplinks button span{font-size:clamp(18px,2vw,27px)!important}
+ .bio-toplinks button small{font-size:clamp(9px,.8vw,12px)!important}
+ .bio-logo{position:absolute!important;top:clamp(12px,2vh,25px)!important;left:50%!important;transform:translateX(-50%)!important;width:clamp(300px,37vw,580px)!important;margin:0!important;z-index:3!important}
+ .bio-logo img{width:100%!important;max-height:clamp(100px,23vh,220px)!important;object-fit:contain!important}
+ .bio-logo p{font-size:clamp(10px,.9vw,14px)!important;padding:4px 12px!important}
+ .bio-worlds{position:absolute!important;left:clamp(12px,3vw,55px)!important;right:clamp(12px,3vw,55px)!important;top:40%!important;height:24%!important;min-height:0!important;display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;align-items:center!important;gap:2vw!important;padding:0!important;margin:0!important;z-index:3!important}
+ .bio-world-content{width:min(100%,300px)!important;padding:clamp(8px,1vh,13px)!important;border-radius:19px!important}
+ .bio-world h2{font-size:clamp(15px,1.65vw,23px)!important;margin:0 0 4px!important}
+ .bio-world p{font-size:clamp(10px,.9vw,13px)!important;line-height:1.25!important;margin:4px 0 7px!important;min-height:0!important}
+ .bio-world button{padding:5px 18px!important;font-size:clamp(11px,.9vw,14px)!important}
+ .bio-actions{position:absolute!important;bottom:clamp(33px,5.6vh,62px)!important;left:50%!important;transform:translateX(-50%)!important;width:min(79%,1080px)!important;display:grid!important;grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:clamp(6px,1vw,15px)!important;z-index:4!important;margin:0!important}
+ .bio-action{min-height:0!important;height:clamp(65px,10vh,104px)!important;padding:5px!important;font-size:clamp(11px,1vw,15px)!important;border-radius:14px!important}
+ .bio-action-icon{font-size:clamp(19px,2.5vh,31px)!important}
+ .bio-more{position:absolute!important;bottom:clamp(5px,1.6vh,17px)!important;left:0!important;right:0!important;display:flex!important;justify-content:center!important;gap:clamp(5px,.6vw,10px)!important;z-index:4!important;margin:0!important;padding:0!important}
+ .bio-more button{padding:4px 9px!important;font-size:clamp(9px,.8vw,12px)!important}
+}
+@media(min-width:801px) and (max-height:720px){
+ .bio-logo{top:4px!important;width:min(31vw,430px)!important}
+ .bio-logo img{max-height:18vh!important}
+ .bio-worlds{top:36%!important;height:26%!important}
+ .bio-actions{bottom:31px!important}.bio-action{height:clamp(58px,10vh,75px)!important}
+ .bio-more{bottom:4px!important}
+}
