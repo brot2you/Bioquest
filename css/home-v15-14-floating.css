@@ -13,7 +13,7 @@
  .bio-worlds{top:40%!important;height:25%!important;align-items:center!important;gap:3vw!important}
  .bio-world{background:transparent!important;border:0!important;box-shadow:none!important;display:flex!important;align-items:center!important;justify-content:center!important;min-width:0!important}
  .bio-world-content{position:relative!important;box-sizing:border-box!important;width:min(100%,310px)!important;height:clamp(130px,20vh,205px)!important;padding:clamp(16px,2.7vh,28px) 22px clamp(22px,3vh,35px)!important;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;background-position:center!important;background-size:100% 100%!important;background-repeat:no-repeat!important;border:0!important;box-shadow:none!important;overflow:visible!important}
- .bio-world.earth .bio-world-content{background-image:url('../assets/world-card-earth.png')!important}
+ .bio-world.earth .bio-world-content{background-image:linear-gradient(155deg,#08749f,#064b73 60%,#053657)!important;background-color:#064b73!important;border:2px solid #75dfff!important;border-radius:18px!important}
  .bio-world.life .bio-world-content{background-image:url('../assets/world-card-life.png')!important}
  .bio-world.body .bio-world-content{background-image:url('../assets/world-card-body.png')!important}
  .bio-world h2{font-size:clamp(12px,1.35vw,19px)!important;line-height:1.12!important;text-align:center!important;text-shadow:0 2px 4px #083b46!important;color:white!important;max-width:82%!important;margin:0 0 5px 10%!important}
