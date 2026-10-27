@@ -1,7 +1,7 @@
-# BIOQUEST V13 — Science Encyclopedia
+# BIOQUEST V14 — Science Quest
 
-Version cumulative basée sur V12. Ajouter tous les fichiers du ZIP à la racine du dépôt GitHub Pages.
+Livraison cumulative depuis V13. 12 expéditions multi-étapes (36 défis), 6 types de mécaniques : ordre, classification multi-choix, QCM contextualisé, analyse de graphique, hypothèse, détection d’erreur. Collection, titres, badges, journal et mission spéciale déverrouillée après 3 expéditions. Sauvegarde locale dans la progression existante. Emojis provisoires.
 
-Nouveautés : encyclopédie de 108 fiches (6 étapes par fiche), lexique navigable, 8 fiches méthode, schémas conceptuels en emojis, réponses enregistrées et éléments de correction consultables. 8 fiches bénéficient d’un enrichissement rédactionnel approfondi ; les autres réutilisent les synthèses et questions de V9. Les schémas sont simplifiés et la correction des rédactions n’est pas automatique. La lecture des étapes n’est pas un indicateur de maîtrise.
+Les graphiques sont explicitement des séries fictives d’entraînement. Les défis ne constituent pas une évaluation complète des compétences et les 12 expéditions ne remplacent pas les missions existantes.
 
-Vérifications : syntaxe JS et intégrité ZIP. Tests fonctionnels multi-navigateurs à réaliser après publication.
+Installation : décompresser puis copier tous les fichiers à la racine du dépôt GitHub Pages. Ne pas déposer le ZIP lui-même.
