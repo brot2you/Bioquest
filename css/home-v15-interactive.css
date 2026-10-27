@@ -31,3 +31,11 @@ body:has(.bio-home) #app{width:100%;max-width:none;margin:0;padding:0}
 .bio-home-background img{display:block;width:100%;height:100%;object-fit:cover;object-position:center center}
 .bio-home-shell{position:relative;z-index:1}
 @media(max-width:800px) and (orientation:portrait){.bio-home-background img{object-position:center top}}
+
+/* V15.8 — two explicit images; never use picture, contain, or max-width for the backdrop. */
+.bio-home{position:relative!important;isolation:isolate!important;background:#087fba!important;min-width:100%!important;width:100%!important;max-width:none!important}
+.bio-home-background{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;max-width:none!important;overflow:hidden!important;z-index:-1!important;pointer-events:none!important}
+.bio-home-background img{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;max-width:none!important;object-fit:cover!important;object-position:center center!important}
+.bio-home-background .bio-bg-pc{display:block!important}
+.bio-home-background .bio-bg-mobile{display:none!important}
+@media(max-width:800px) and (orientation:portrait){.bio-home-background .bio-bg-pc{display:none!important}.bio-home-background .bio-bg-mobile{display:block!important;object-position:center top!important}}
