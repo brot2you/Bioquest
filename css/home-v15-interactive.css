@@ -39,3 +39,12 @@ body:has(.bio-home) #app{width:100%;max-width:none;margin:0;padding:0}
 .bio-home-background .bio-bg-pc{display:block!important}
 .bio-home-background .bio-bg-mobile{display:none!important}
 @media(max-width:800px) and (orientation:portrait){.bio-home-background .bio-bg-pc{display:none!important}.bio-home-background .bio-bg-mobile{display:block!important;object-position:center top!important}}
+
+/* V15.9 — desktop: show the ENTIRE 16:9 archipelago, no cropping. */
+@media (min-width:801px) {
+ .bio-home-background .bio-bg-pc {
+   object-fit:contain!important;
+   object-position:center top!important;
+ }
+ .bio-home-background {background:linear-gradient(180deg,#178ed0,#087fba 65%,#06669a)!important}
+}
