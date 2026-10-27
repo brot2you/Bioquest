@@ -1,16 +1,9 @@
-# BIOQUEST V10 — Adventure World
+BIOQUEST V11 — Science Lab 2.0
 
-Version cumulative construite sur V9 enrichie.
+Installation : décompresser et transférer TOUS les fichiers et dossiers à la racine du dépôt GitHub Pages. Ne pas supprimer les dossiers existants.
 
-## Ajouts
-- 18 lieux (6 par île), reliés par une carte et des passages directs.
-- 54 objets/indices examinables et consignés dans le journal.
-- 18 enquêtes avec une conclusion verrouillée jusqu’à la collecte de 3 preuves.
-- Corrections scientifiques et nouvelle progression sauvegardée dans la sauvegarde existante.
-- Emojis provisoires, responsive mobile.
+21 simulations pédagogiques dans 7 domaines ; hypothèse, choix de variable, contrôles, essais, tableau, graphique Canvas, interprétation, conclusion, validation et sauvegarde locale.
 
-## Publication
-Décompresser et transférer **tout le contenu** du ZIP à la racine du dépôt GitHub Pages, en remplaçant les fichiers existants sans supprimer les autres. Laisser les dossiers css, data et js.
+Les résultats sont des indices conceptuels arbitraires, non des données scientifiques réelles. Les modèles doivent être revus par un enseignant avant utilisation en classe.
 
-## Périmètre honnête
-Les 18 enquêtes sont de courtes investigations à choix, pas encore des aventures narratives multi-étapes. Les anciens parcours V9 et les activités restent conservés. Tests manuels navigateur/iPhone nécessaires.
+Les fonctionnalités V10 restent dans le ZIP. Le bouton Laboratoire ouvre la V11.
