@@ -112,3 +112,18 @@
   background:linear-gradient(160deg,#9b176a,#5f1258)!important;
  }
 }
+
+/* V15.20 — definitive : cibler la premiere carte par sa position, et non
+   par une classe "earth" potentiellement absente du HTML. */
+.bio-home .bio-worlds > .bio-world:first-child .bio-world-content,
+.bio-home .bio-worlds .bio-world:first-child .bio-world-content,
+.bio-home .bio-worlds > :first-child .bio-world-content{
+ background-image:none!important;
+ background-color:#064b73!important;
+ background:linear-gradient(155deg,#086b98 0%,#064b73 60%,#053657 100%)!important;
+ opacity:1!important;
+ border:2px solid #75dfff!important;
+ -webkit-backdrop-filter:none!important;
+ backdrop-filter:none!important;
+ box-shadow:0 7px 18px #002e4c9c!important;
+}
