@@ -1,11 +1,7 @@
-BIOQUEST V15 — ACCUEIL INTERACTIF
+BIOQUEST V15 — Correction du choix des décors
 
-Décors fournis par l’utilisateur : assets/home-hero.webp (ordinateur) et assets/home-mobile.webp (smartphone). Logo fourni : assets/home-logo.png.
+Ordinateur et écran paysage : assets/home-hero.webp (1536 × 864).
+Smartphone vertical : assets/home-mobile.webp (787 × 1400).
+Logo : assets/home-logo.png.
 
-Boutons, titres et panneaux sont des éléments HTML/CSS indépendants et cliquables. Aucun robot ajouté.
-
-Installation : décompresser le ZIP et déposer tous les fichiers et dossiers à la racine du dépôt GitHub Pages Bioquest, en remplaçant les fichiers existants.
-
-Cette version conserve les autres fonctionnalités de la V15.
-
-BIOQUEST V15 — Mise à jour
+Installer tous les fichiers à la racine de GitHub Pages. Le correctif concerne uniquement le choix du fond de la page d’accueil, sans toucher aux fonctionnalités.
