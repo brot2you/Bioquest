@@ -1,0 +1,24 @@
+/* BIOQUEST V15.14 — floating islands + illustrated cards. */
+.bio-world h2{white-space:normal!important;word-spacing:normal!important;overflow-wrap:normal!important;word-break:normal!important;hyphens:none!important;line-height:1.16!important}
+@media (max-width:800px){.bio-world h2{font-size:clamp(16px,4.4vw,24px)!important;letter-spacing:0!important;word-spacing:.12em!important}.bio-world-content{min-width:0!important}}
+@media (min-width:801px){
+ .bio-home{background:#65c6ee!important}
+ .bio-home-background{z-index:0!important;background-image:url('../assets/home-floating-islands.webp')!important;background-size:100% 100%!important;background-position:center center!important}
+ .bio-home-background .bio-bg-pc{display:block!important;position:absolute!important;inset:0!important;width:100%!important;height:100%!important;object-fit:fill!important;opacity:1!important}
+ .bio-home-background .bio-bg-mobile{display:none!important}
+ .bio-home-shell{z-index:2!important}
+ /* remove old yellow header ribbon if present */
+ .bio-home .bio-top::before,.bio-home .bio-top::after{display:none!important}
+ .bio-home .bio-top{background:none!important;box-shadow:none!important;border:0!important}
+ .bio-worlds{top:40%!important;height:25%!important;align-items:center!important;gap:3vw!important}
+ .bio-world{background:transparent!important;border:0!important;box-shadow:none!important;display:flex!important;align-items:center!important;justify-content:center!important;min-width:0!important}
+ .bio-world-content{position:relative!important;box-sizing:border-box!important;width:min(100%,310px)!important;height:clamp(130px,20vh,205px)!important;padding:clamp(16px,2.7vh,28px) 22px clamp(22px,3vh,35px)!important;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;background-position:center!important;background-size:100% 100%!important;background-repeat:no-repeat!important;border:0!important;box-shadow:none!important;overflow:visible!important}
+ .bio-world.earth .bio-world-content{background-image:url('../assets/world-card-earth.png')!important}
+ .bio-world.life .bio-world-content{background-image:url('../assets/world-card-life.png')!important}
+ .bio-world.body .bio-world-content{background-image:url('../assets/world-card-body.png')!important}
+ .bio-world h2{font-size:clamp(12px,1.35vw,19px)!important;line-height:1.12!important;text-align:center!important;text-shadow:0 2px 4px #083b46!important;color:white!important;max-width:82%!important;margin:0 0 5px 10%!important}
+ .bio-world p{font-size:clamp(9px,.76vw,12px)!important;line-height:1.15!important;max-width:78%!important;text-align:center!important;color:white!important;text-shadow:0 1px 3px #002a27!important;margin:0 0 7px 8%!important}
+ .bio-world button{background:transparent!important;border:0!important;box-shadow:none!important;color:#073e3b!important;font-weight:900!important;padding:3px 12px!important;margin:0 0 0 8%!important;font-size:clamp(11px,1vw,15px)!important}
+ .bio-world button:focus-visible{outline:3px solid #fff!important;border-radius:15px!important}
+}
+@media(min-width:801px) and (max-height:740px){.bio-worlds{top:37%!important}.bio-world-content{height:clamp(112px,22vh,150px)!important}.bio-world p{font-size:9px!important}}
