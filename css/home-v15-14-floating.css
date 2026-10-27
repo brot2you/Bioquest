@@ -92,3 +92,23 @@
   color:#003950!important;border:2px solid #e3ffff!important;
  }
 }
+
+/* V15.19 — cause racine : l'image du panneau Terre avait une priorite CSS
+   superieure au fond opaque en paysage. Les trois panneaux sont homogenises. */
+@media (orientation:landscape) and (max-height:650px) and (max-width:1800px){
+ .bio-home .bio-world.earth .bio-world-content{
+  background-image:none!important;
+  background-color:#064e79!important;
+  background:linear-gradient(160deg,#086e9e,#063b60)!important;
+  border:2px solid #8de8ff!important;
+  opacity:1!important;
+ }
+ .bio-home .bio-world.life .bio-world-content{
+  background-image:none!important;
+  background:linear-gradient(160deg,#087c45,#064e36)!important;
+ }
+ .bio-home .bio-world.body .bio-world-content{
+  background-image:none!important;
+  background:linear-gradient(160deg,#9b176a,#5f1258)!important;
+ }
+}
