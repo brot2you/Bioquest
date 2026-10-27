@@ -60,3 +60,26 @@ body:has(.bio-home) #app{width:100%;max-width:none;margin:0;padding:0}
 .bio-more button{background:#063c67f0;box-shadow:0 3px 6px #2a150d8a}
 @media (min-width:801px){.bio-home-background{background:linear-gradient(180deg,#178ed0,#087fba 65%,#06669a)!important}.bio-home::after{height:clamp(190px,31vh,355px)}.bio-worlds{padding-bottom:clamp(8px,1.2vh,22px)}}
 @media (max-width:800px){.bio-home::after{height:clamp(190px,28vh,290px);background-size:auto 100%;background-position:center bottom;opacity:.96}.bio-actions{gap:8px}.bio-action{min-height:74px}.bio-more{padding-bottom:8px}}
+
+/* V15.11 — bureau HD non déformé et commandes réellement superposées. */
+@media (min-width:801px){
+ .bio-home{min-height:100dvh;position:relative;isolation:isolate;background:#087fba}
+ .bio-home::after{height:min(48vw,69vh)!important;max-height:none!important;background-image:url('../assets/science-desk-v15-11.png')!important;background-size:100% auto!important;background-position:center bottom!important;background-repeat:no-repeat!important;z-index:1!important}
+ .bio-home-shell{height:100dvh;min-height:700px;max-width:1720px;position:relative;z-index:2;gap:clamp(4px,.8vh,12px);padding-bottom:clamp(10px,1.5vh,18px)}
+ .bio-logo img{width:min(39vw,540px)}
+ .bio-worlds{flex:1;min-height:150px;align-items:center;padding:0 0 clamp(0px,2vh,22px)!important}
+ .bio-world-content{width:min(100%,295px);padding:12px 12px 10px;border-radius:21px}
+ .bio-world h2{font-size:clamp(17px,1.6vw,24px)}
+ .bio-world p{font-size:clamp(11px,.95vw,14px);min-height:0;margin:6px 0 9px}
+ .bio-world button{padding:7px 20px}
+ .bio-actions{width:min(92%,1120px);gap:clamp(8px,1vw,16px);margin-top:0}
+ .bio-action{min-height:clamp(82px,11.5vh,118px);font-size:clamp(12px,1.15vw,17px);border-radius:18px}
+ .bio-more{padding:2px 0 0}
+ .bio-more button{padding:6px 12px;font-size:clamp(10px,.82vw,12px)}
+}
+@media (max-width:800px){
+ .bio-home::after{background-image:url('../assets/science-desk-v15-11.png')!important;background-size:auto 100%!important;height:clamp(240px,36vh,400px)!important;opacity:1!important}
+ .bio-home-shell{position:relative;z-index:2}
+ .bio-worlds{padding-bottom:0!important}
+ .bio-actions{position:relative;z-index:3}
+}
