@@ -24,3 +24,10 @@ body:has(.bio-home) #app{width:100%;max-width:none;margin:0;padding:0}
 /* Fonds explicites : paysage = image PC, portrait mobile = image smartphone. */
 .bio-home{background-image:url("../assets/home-hero.webp")!important;background-position:center center!important;background-size:cover!important}
 @media (max-width:800px) and (orientation:portrait){.bio-home{background-image:url("../assets/home-mobile.webp")!important;background-position:center top!important}}
+
+/* Correctif réel : <picture> choisit le fichier ; aucun fond CSS concurrent. */
+.bio-home{position:relative;background-image:none!important;background-color:#058ac5!important;isolation:isolate}
+.bio-home-background{position:absolute;inset:0;z-index:-1;display:block;overflow:hidden;pointer-events:none}
+.bio-home-background img{display:block;width:100%;height:100%;object-fit:cover;object-position:center center}
+.bio-home-shell{position:relative;z-index:1}
+@media(max-width:800px) and (orientation:portrait){.bio-home-background img{object-position:center top}}

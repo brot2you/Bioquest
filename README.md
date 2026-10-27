@@ -1,7 +1,1 @@
-BIOQUEST V15 — Correction du choix des décors
-
-Ordinateur et écran paysage : assets/home-hero.webp (1536 × 864).
-Smartphone vertical : assets/home-mobile.webp (787 × 1400).
-Logo : assets/home-logo.png.
-
-Installer tous les fichiers à la racine de GitHub Pages. Le correctif concerne uniquement le choix du fond de la page d’accueil, sans toucher aux fonctionnalités.
+BIOQUEST V15 — correction des images PC/mobile.\nPC : assets/home-hero.webp (1536x864). Smartphone portrait : assets/home-mobile.webp (787x1400).\nLe choix utilise une balise HTML picture, pas uniquement une image de fond CSS.\nDéposer tous les fichiers à la racine du dépôt GitHub Pages, y compris assets, css, js et index.html.\nAprès publication, forcer le rechargement Ctrl+F5.\n
