@@ -144,3 +144,4 @@
  }
 }
 .bio-world.earth .bio-world-content{background-image:url('../assets/world-card-earth.png')!important}
+html body .bio-home .bio-home-shell .bio-worlds article.bio-world.earth .bio-world-content{background:url('../assets/world-card-earth.png') center/100% 100% no-repeat!important}
