@@ -1,21 +1,15 @@
-# BIOQUEST V8 — Foundation Edition
+# BIOQUEST V9 — Extension programme
 
-Cette version **reprend intégralement la V7** (20 missions, enquêtes, laboratoire, carnet, maîtrise SVT et correctif d’indices) et fiabilise son moteur.
+Version cumulative basée sur BIOQUEST V9 précédent. Ouvrir `index.html` ou publier tous les fichiers à la racine GitHub Pages.
 
-## Correctifs V8
-- Conservation du focus clavier lors du rafraîchissement des boutons d’association et des écrans.
-- Une seule zone de retour pour les indices de mission ; retour annoncé aux technologies d’assistance.
-- Protection contre les identifiants de mission inconnus et les indices inexistants.
-- Import de sauvegarde contrôlé (format, taille, structure des champs) ; confirmation avant remplacement.
-- Signalement interne d’échec de stockage ; protection contre les exceptions de stockage.
-- Ajustements tactiles et réduction des animations.
-- Cache busting `?v=8` pour les ressources.
+## Contenu réellement ajouté
+- 108 fiches de notions rédigées (27 par niveau), organisées en 54 binômes/expéditions.
+- Chaque notion : synthèse scientifique, situation d’application, activité de rédaction d’hypothèse, reconnaissance d’une définition, situation d’évaluation rédigée, rappel différé.
+- Sauvegarde locale via le moteur préexistant, sans compte.
+- Anciennes missions, enquêtes et laboratoire conservés.
 
-## Installation GitHub Pages
-Décompressez le ZIP, puis copiez **tout son contenu** à la racine du dépôt (et non le dossier englobant). Aucune API ni serveur nécessaire.
-
-## Tests
-Les contrôles automatisés de syntaxe, d’archives et de références de fichiers sont possibles localement. Le test interactif sur Safari iPhone et les scénarios de progression doivent encore être validés sur appareils réels.
-
-## Limites
-La V8 consolide la V7 : elle ne constitue pas encore la couverture intégrale des programmes de SVT.
+## Limites importantes
+- Il ne s’agit PAS encore de 270 activités variées indépendantes ni de 20 simulations supplémentaires. Les 108 exercices de reconnaissance sont générés sur un même modèle et la correction automatique ne valide que le choix de définition.
+- Les évaluations écrites sont sauvegardées mais nécessitent une autoévaluation ou un enseignant.
+- Le découpage des 5e/4e/3e est une proposition, pas une prescription annuelle officielle. La correspondance ligne à ligne avec les programmes Éduscol reste à auditer.
+- Tests navigateur/iPhone à réaliser sur la version publiée.
