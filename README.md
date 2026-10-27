@@ -1,17 +1,7 @@
-# BIOQUEST — Base pédagogique V2
+BIOQUEST V7 — Maîtrise SVT et associations stables
 
-Version de travail à illustrations emoji provisoires. 20 missions (8 initiales + 12 nouvelles), trois îles, quatre niveaux, activités d'observation, de raisonnement, d'association et de décision, carnet, laboratoire, sauvegarde locale, import/export JSON et réactivation espacée.
+Remplacez le contenu du dépôt GitHub Pages par TOUS les fichiers du ZIP. La V7 conserve la V6, les enquêtes et les correctifs précédents.
 
-## Publication GitHub Pages
-Décompresser le ZIP et transférer **le contenu** (index.html, css/, js/, data/, README.md) à la racine du dépôt. Activer GitHub Pages depuis la branche principale et le dossier racine.
+Nouveautés : onglet Maîtrise SVT par classe, exercices de réactivation, suivi local, associations par boutons stables (plus de menus déroulants).
 
-## Limites et vérifications
-Les parcours sont des propositions pédagogiques, non une certification ni une couverture exhaustive des programmes. Les séries de données simplifiées sont signalées. Les nouveaux contenus nécessitent une relecture scientifique et une correspondance fine avec les programmes en vigueur avant utilisation systématique en classe. La révision est stockée localement par mission et non encore par compétence. Les illustrations sont provisoires.
-
-Les fichiers data/content.js et data/extension.js permettent d'enrichir les missions sans modifier le moteur. Aucune dépendance distante.
-
-
-## V4 — Exploration des îles
-Décors emoji provisoires et 9 lieux explorables, avec 27 objets à inspecter. Les observations sont enregistrées dans le carnet et la sauvegarde existante. Les contenus des objets sont dans `data/scenes.js`; le décor et les boutons sont dans `css/exploration-v4.css` et `js/app.js`. La V3 et ses missions restent en place.
-
-Correctif 4.2 : une seule zone de texte pour les indices des missions ; versionnage des ressources pour éviter un ancien cache.
+Le suivi reflète les exercices proposés et non une certification du programme entier.
