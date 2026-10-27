@@ -1,0 +1,15 @@
+/* V4 : décors emoji provisoires, remplaçables ultérieurement par images HD. */
+.adventure-scene{position:relative;isolation:isolate;min-height:450px;overflow:hidden;border:4px solid #f7dc70;border-radius:30px;box-shadow:0 16px 0 #063b55,0 30px 65px #001b3180;background:linear-gradient(180deg,#46c8f1 0%,#a6ecff 47%,#67c878 48%,#178b62 100%);margin:24px 0 36px}
+.adventure-scene.theme-terre{background:linear-gradient(180deg,#4fb8f1,#a8e6ff 47%,#e7b26e 48%,#9b4e3e)}
+.adventure-scene.theme-vivant{background:linear-gradient(180deg,#3cc5ee,#b9f7e1 45%,#81d961 46%,#207b54)}
+.adventure-scene.theme-corps{background:linear-gradient(180deg,#7169e8,#c4bcff 46%,#85dbe9 47%,#4774ca)}
+.sky-details{position:absolute;top:7%;left:5%;right:5%;text-align:center;font-size:clamp(26px,4vw,55px);opacity:.85;pointer-events:none}
+.scene-landscape{position:absolute;bottom:22%;width:100%;text-align:center;font-size:clamp(75px,13vw,175px);letter-spacing:.03em;white-space:nowrap;overflow:hidden;pointer-events:none;filter:drop-shadow(0 12px 8px #18415a60)}
+.scene-path{position:absolute;bottom:-18%;left:30%;width:40%;height:45%;border-radius:50% 50% 0 0;background:#f4d88e99;filter:blur(3px);pointer-events:none}
+.scene-places{position:relative;z-index:2;display:flex;justify-content:space-around;align-items:end;gap:12px;min-height:450px;padding:170px 24px 24px}
+.place{flex:0 1 240px;min-width:0;display:flex;flex-direction:column;align-items:center;gap:5px;padding:12px 8px;background:#073f61e8;border:3px solid #ffea9c;border-radius:22px;box-shadow:0 7px 0 #052f4b,0 12px 20px #001b3866;color:#fff;text-align:center}
+.place-icon{font-size:clamp(45px,6vw,88px);line-height:1.25;filter:drop-shadow(0 4px 2px #0005)}
+.place strong{font-size:clamp(.85rem,1.8vw,1.15rem)}.place small{color:#ffe78b}.place:hover,.place:focus-visible{background:#135d7f;transform:translateY(-6px)}
+.place.discovered{border-color:#a3ffb8}.guide-talk{background:linear-gradient(100deg,#1379a5,#145b86);border:2px solid #7fe6ed;border-radius:22px;padding:20px;line-height:1.6;box-shadow:0 7px 0 #0a405d}.explore-meter{display:inline-block;padding:10px 18px;background:#195f85;border-radius:20px;font-weight:700}.site-scene{min-height:390px}.site-scene .scene-places{min-height:390px}.site-scene .scene-landscape{opacity:.7}
+@media(max-width:700px){.adventure-scene{min-height:390px}.scene-places{min-height:390px;padding:130px 10px 15px;gap:7px}.place{padding:10px 4px;border-width:2px}.place-icon{font-size:clamp(35px,10vw,62px)}.place strong{font-size:.75rem;overflow-wrap:anywhere}.place small{font-size:.65rem}.scene-landscape{font-size:22vw;bottom:32%}.site-scene .scene-places{min-height:390px}}
+@media(max-width:370px){.place-icon{font-size:33px}.place strong{font-size:.68rem}.scene-places{gap:4px;padding-left:5px;padding-right:5px}}
