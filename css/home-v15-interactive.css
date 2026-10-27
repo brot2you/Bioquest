@@ -48,3 +48,15 @@ body:has(.bio-home) #app{width:100%;max-width:none;margin:0;padding:0}
  }
  .bio-home-background {background:linear-gradient(180deg,#178ed0,#087fba 65%,#06669a)!important}
 }
+
+/* V15.10 — science desk is a transparent overlay, not a replacement background. */
+.bio-home{overflow:hidden}
+.bio-home-shell{z-index:2;min-height:100dvh;padding-bottom:clamp(10px,1.6vh,24px)}
+.bio-home::after{content:"";position:absolute;z-index:0;bottom:0;left:0;width:100%;height:clamp(180px,31vh,360px);background:url('../assets/science-desk-overlay.png') center bottom/100% 100% no-repeat;pointer-events:none}
+.bio-worlds{position:relative;z-index:1;padding-bottom:clamp(12px,2vh,30px)}
+.bio-actions{position:relative;z-index:3;gap:clamp(7px,1.2vw,16px)}
+.bio-action{min-height:clamp(74px,11vh,112px);border-width:2px;box-shadow:0 5px 0 #46210a99,0 8px 15px #3b210f80}
+.bio-more{position:relative;z-index:3;padding:3px 0 0}
+.bio-more button{background:#063c67f0;box-shadow:0 3px 6px #2a150d8a}
+@media (min-width:801px){.bio-home-background{background:linear-gradient(180deg,#178ed0,#087fba 65%,#06669a)!important}.bio-home::after{height:clamp(190px,31vh,355px)}.bio-worlds{padding-bottom:clamp(8px,1.2vh,22px)}}
+@media (max-width:800px){.bio-home::after{height:clamp(190px,28vh,290px);background-size:auto 100%;background-position:center bottom;opacity:.96}.bio-actions{gap:8px}.bio-action{min-height:74px}.bio-more{padding-bottom:8px}}

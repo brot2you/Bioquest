@@ -1,7 +1,7 @@
-BIOQUEST V15.9 — Correctif cadrage des 3 îles sur PC
+BIOQUEST V15.10 — Accueil avec table scientifique transparente
 
-Le fond PC est affiché intégralement (object-fit: contain), sans rogner les îles latérales. La version smartphone continue d'utiliser son image portrait.
+Installation : décompresser puis déposer le contenu du ZIP à la racine du dépôt GitHub Pages Bioquest (branche main). Remplacer les fichiers existants, y compris css/ et assets/. Attendre la publication puis actualiser avec Ctrl+F5.
 
-Décompresser le ZIP et transférer tous les fichiers/dossiers à la racine du dépôt GitHub Pages. Attendre le déploiement, puis Ctrl+F5.
+Modifications : ajout de assets/science-desk-overlay.png (vrai canal alpha) au bas de l'accueil ; les cinq boutons d'activités et les liens secondaires sont affichés au premier plan sur la table. Les trois îles, le logo et le moteur de l'application restent inchangés.
 
-Note : selon le ratio de l'écran, des bandes de fond bleu peuvent apparaître en bas ou sur les côtés pour préserver le panorama complet sans déformation. Les boutons restent indépendants du décor.
+À vérifier sur les appareils : disposition exacte selon les proportions d'écran et éventuel chevauchement sur petits écrans.
