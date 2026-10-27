@@ -47,3 +47,29 @@
  .bio-home .bio-more{display:none!important}
  .bio-home .bio-action:hover{transform:none!important}
 }
+
+/* V15.16 — correction des cartes d'iles en paysage iPhone.
+   Un seul texte HTML interactif par carte; image non etiree. */
+@media (orientation:landscape) and (max-height:600px) and (max-width:1100px){
+ .bio-home .bio-worlds{top:39%!important;height:29%!important;align-items:stretch!important}
+ .bio-home .bio-world{height:100%!important;align-items:stretch!important}
+ .bio-home .bio-world-content{
+  position:relative!important;width:100%!important;max-width:310px!important;
+  height:100%!important;max-height:none!important;min-height:0!important;
+  aspect-ratio:auto!important;display:grid!important;
+  grid-template-rows:auto 1fr auto!important;
+  justify-items:center!important;align-items:center!important;
+  padding:8px 8px 7px!important;margin:auto!important;
+  background-image:none!important;
+  background:linear-gradient(160deg,#064e79f2,#063b60f2)!important;
+  border:2px solid #8de8ff!important;border-radius:16px!important;
+  box-shadow:0 5px 14px #001d34a8!important;overflow:hidden!important;
+ }
+ .bio-home .bio-world.life .bio-world-content{background:linear-gradient(160deg,#087c45f2,#064e36f2)!important;border-color:#8bff9d!important}
+ .bio-home .bio-world.body .bio-world-content{background:linear-gradient(160deg,#9b176af2,#5f1258f2)!important;border-color:#ffa5e0!important}
+ .bio-home .bio-world h2{display:block!important;max-width:100%!important;width:100%!important;margin:0!important;font-size:clamp(11px,2.8vh,15px)!important;line-height:1.12!important;letter-spacing:0!important;word-spacing:normal!important;text-align:center!important;color:white!important}
+ .bio-home .bio-world p{display:block!important;max-width:100%!important;width:100%!important;margin:2px 0!important;font-size:clamp(9px,2.2vh,11px)!important;line-height:1.14!important;text-align:center!important;color:white!important}
+ .bio-home .bio-world button{display:block!important;position:relative!important;width:auto!important;max-width:90%!important;min-height:27px!important;margin:0!important;padding:3px 20px!important;border:1.5px solid #ffffffc9!important;border-radius:24px!important;background:linear-gradient(#5fe6ff,#00a9e9)!important;color:#003b54!important;font-size:clamp(10px,2.6vh,13px)!important;line-height:1.1!important;box-shadow:0 3px #00496a!important}
+ .bio-home .bio-world.life button{background:linear-gradient(#a5ff82,#41dd50)!important;color:#063e20!important}
+ .bio-home .bio-world.body button{background:linear-gradient(#ffb0e7,#fa4db1)!important;color:#4a0636!important}
+}
