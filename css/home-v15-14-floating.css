@@ -24,7 +24,7 @@
 @media(min-width:801px) and (max-height:740px){.bio-worlds{top:37%!important}.bio-world-content{height:clamp(112px,22vh,150px)!important}.bio-world p{font-size:9px!important}}
 
 /* V15.15 — smartphone en paysage : boutons proportionnes, sans etirement. */
-@media (orientation:landscape) and (max-height:600px) and (max-width:1100px){
+@media (orientation:landscape) and (max-height:650px) and (max-width:1800px){
  .bio-home .bio-home-shell{height:100dvh!important;min-height:0!important;max-height:100dvh!important;overflow:hidden!important}
  .bio-home .bio-top{top:5px!important;left:8px!important;right:8px!important}
  .bio-home .bio-profile{padding:4px 7px!important;font-size:10px!important}
@@ -50,7 +50,7 @@
 
 /* V15.16 — correction des cartes d'iles en paysage iPhone.
    Un seul texte HTML interactif par carte; image non etiree. */
-@media (orientation:landscape) and (max-height:600px) and (max-width:1100px){
+@media (orientation:landscape) and (max-height:650px) and (max-width:1800px){
  .bio-home .bio-worlds{top:39%!important;height:29%!important;align-items:stretch!important}
  .bio-home .bio-world{height:100%!important;align-items:stretch!important}
  .bio-home .bio-world-content{
