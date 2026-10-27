@@ -13,3 +13,5 @@ Les fichiers data/content.js et data/extension.js permettent d'enrichir les miss
 
 ## V4 — Exploration des îles
 Décors emoji provisoires et 9 lieux explorables, avec 27 objets à inspecter. Les observations sont enregistrées dans le carnet et la sauvegarde existante. Les contenus des objets sont dans `data/scenes.js`; le décor et les boutons sont dans `css/exploration-v4.css` et `js/app.js`. La V3 et ses missions restent en place.
+
+Correctif 4.2 : une seule zone de texte pour les indices des missions ; versionnage des ressources pour éviter un ancien cache.
