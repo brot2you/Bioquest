@@ -127,3 +127,19 @@
  backdrop-filter:none!important;
  box-shadow:0 7px 18px #002e4c9c!important;
 }
+
+/* V15.21 — priorite maximale en paysage, sans toucher au portrait.
+   L'image de carte ne doit jamais etre affichee sur le panneau Terre. */
+@media screen and (orientation:landscape) and (max-height:750px) {
+ html body .bio-home .bio-home-shell .bio-worlds article.bio-world.earth .bio-world-content {
+   background-image:linear-gradient(155deg,#08749f 0%,#075579 55%,#053755 100%)!important;
+   background-color:#075579!important;
+   background-size:cover!important;
+   background-position:center!important;
+   border:2px solid #75dfff!important;
+   border-radius:18px!important;
+   opacity:1!important;
+   -webkit-backdrop-filter:none!important;
+   backdrop-filter:none!important;
+ }
+}
